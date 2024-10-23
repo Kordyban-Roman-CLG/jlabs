@@ -44,8 +44,8 @@ public class task_2 {
             System.out.println("No elements greater than " + b + " found");
         }
         if (hasRangeElements) {
-            System.out.println("Maximum element in range [" + a + "," + b + "]: " + maxInRange);
-            System.out.println("Minimum element in range [" + a + "," + b + "]: " + minInRange);
+            System.out.println("Max in [" + a + "," + b + "]: " + maxInRange);
+            System.out.println("Min in [" + a + "," + b + "]: " + minInRange);
         } else {
             System.out.println("No elements found in range [" + a + "," + b + "]");
         }
@@ -55,7 +55,6 @@ public class task_2 {
         double[] X = { 1.5, 4.2, 2.8, 7.1, 3.3, 0.5, 8.9, 2.1 };
         double a = 2.0;
         double b = 7.0;
-
         processArray(X, a, b);
     }
 }

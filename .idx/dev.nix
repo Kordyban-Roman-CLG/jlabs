@@ -14,7 +14,6 @@
       "vscjava.vscode-java-pack"
       "vscjava.vscode-java-test"
       "vscjava.vscode-gradle"
-      "eamodio.gitlens"
       "shardulm94.trailing-spaces"
     ];
   };
