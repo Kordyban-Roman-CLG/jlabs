@@ -1,4 +1,4 @@
-package lab_2;
+package lab_3;
 
 public class Main {
     static void clear(boolean absolute) {

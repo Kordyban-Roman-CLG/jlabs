@@ -37,7 +37,6 @@ public class _Vector3D {
             return true;
         if (obj == null || getClass() != obj.getClass())
             return false;
-
         _Vector3D vector = (_Vector3D) obj;
         return Double.compare(vector.x, x) == 0 &&
                 Double.compare(vector.y, y) == 0 &&

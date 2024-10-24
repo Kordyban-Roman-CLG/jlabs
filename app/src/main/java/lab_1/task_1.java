@@ -9,12 +9,10 @@ public class task_1 {
 
     public static void main() {
         Scanner input = new Scanner(System.in);
-
         System.out.printf("a:");
         double a = input.nextDouble();
         System.out.printf("b:");
         double b = input.nextDouble();
-
         System.out.println(task_1.func(a, b));
         input.close();
     }

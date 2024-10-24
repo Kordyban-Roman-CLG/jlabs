@@ -16,7 +16,6 @@ public class task_4 {
         String[] words = text.replaceAll("[.,!?]", "").split("\\s+");
         ArrayList<String> wordsWithDoubles = new ArrayList<>();
         ArrayList<String> remainingWords = new ArrayList<>();
-
         for (String word : words) {
             if (hasDoubledLetters(word)) {
                 wordsWithDoubles.add(word);
@@ -24,18 +23,14 @@ public class task_4 {
                 remainingWords.add(word);
             }
         }
-
         String doubledWords = String.join(" ", wordsWithDoubles);
         String remainingText = String.join(" ", remainingWords);
-
         return new String[] { doubledWords, remainingText };
     }
 
     public static void main() {
         String text = "Hello, good afternoon. I need coffee soon! The book is excellent.";
-
         String[] result = processText(text);
-
         System.out.println(":" + text);
         System.out.println(":" + result[0]);
         System.out.println(":" + result[1]);

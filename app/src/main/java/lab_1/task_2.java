@@ -14,14 +14,12 @@ public class task_2 {
             System.out.println("Error: Array length exceeds 200");
             return;
         }
-
         double sumLessThanA = 0;
         double productGreaterThanB = 1;
         boolean hasProductElements = false;
         double maxInRange = Double.NEGATIVE_INFINITY;
         double minInRange = Double.POSITIVE_INFINITY;
         boolean hasRangeElements = false;
-
         for (int i = 0; i < X.length; i++) {
             if (X[i] < a) {
                 sumLessThanA += X[i];
@@ -36,7 +34,6 @@ public class task_2 {
                 hasRangeElements = true;
             }
         }
-
         System.out.println("Sum of elements less than " + a + ": " + sumLessThanA);
         if (hasProductElements) {
             System.out.println("Product of elements greater than " + b + ": " + productGreaterThanB);

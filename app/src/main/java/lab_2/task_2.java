@@ -4,7 +4,6 @@ public class task_2 {
     public static void main() {
         _ComplexNumber num1 = new _ComplexNumber(4, 3);
         _ComplexNumber num2 = new _ComplexNumber(2, -5);
-
         System.out.println("Число 1: " + num1);
         System.out.println("Число 2: " + num2);
         System.out.println("Модуль числа 1: " + num1.modulus());
@@ -16,3 +15,14 @@ public class task_2 {
         System.out.println("Комплексно спряжене число 1: " + num1.conjugate());
     }
 }
+/*
+    Клас «комплексне число», який дозволяє знаходити:
+        модуль комплексного числа,
+        його аргумент,
+        виконує основні арифметичні операції з числами:
+            додавання,
+            віднімання,
+            множення,
+            ділення,
+            комплексного спряження.
+*/

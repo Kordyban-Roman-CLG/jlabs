@@ -44,13 +44,10 @@ public class task_3 {
                 { 6, 5, 3 }
         };
         int[][] X = multiplyMatrices(A, B, n);
-
         System.out.println("Matrix A:");
         printMatrix(A);
-
         System.out.println("\nMatrix B:");
         printMatrix(B);
-
         System.out.println("\nResult Matrix X:");
         printMatrix(X);
     }
