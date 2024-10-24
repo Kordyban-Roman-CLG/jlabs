@@ -1,4 +1,4 @@
-package lab_1;
+package lab_2;
 
 public class Main {
     static void clear(boolean absolute) {
@@ -6,7 +6,7 @@ public class Main {
             System.out.print("\033[H\033[2J");
             System.out.flush();
         } else {
-            System.out.print("\n\n\n\n\n");
+            System.out.print("\n\n\n");
         }
     }
 
@@ -14,10 +14,8 @@ public class Main {
         clear(true);
         task_1.main();
         clear(false);
-        task_2.main();
+        task_1.main();
         clear(false);
         task_3.main();
-        clear(false);
-        task_4.main();
     }
 }
