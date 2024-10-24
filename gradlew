@@ -1,5 +1,4 @@
 #!/bin/sh
-clear
 
 app_path=$0
 
