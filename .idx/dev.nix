@@ -2,6 +2,7 @@
   channel = "unstable";
   packages = [
     pkgs.fastfetch
+    pkgs.tree
     pkgs.gradle
     pkgs.temurin-bin-21
   ];
